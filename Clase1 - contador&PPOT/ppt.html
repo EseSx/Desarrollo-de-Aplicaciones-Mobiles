@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piedra, Papel o Tijera</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #cb958e;
+        color: rgb(19, 13, 13);
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        flex-direction: column;
+      }
+
+      button {
+        background-color: #ffdac1;
+        color: rgb(14, 3, 3);
+        border: none;
+        cursor: pointer;
+        padding: 10px;
+        margin: 5px;
+        font-size: 1.2em;
+        border: 2px solid #ffdac1;
+        border-radius: 5px;
+      }
+
+      input {
+        padding: 10px;
+        font-size: 1.1em;
+        border: none;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Piedra, Papel o Tijera</h1>
+    <h2>Escribe tu elección: 🗿,📋 o ✂</h2>
+    <input type="text" id="eleccionProfe" />
+    <button id="boton">Jugar</button>
+    <p id="resultado"></p>
+
+    <script>
+      document.getElementById("boton").addEventListener("click", jugar);
+
+      function jugar() {
+        const profe = document
+          .getElementById("eleccionProfe")
+          .value.toLowerCase();
+        const opciones = ["piedra", "papel", "tijera"];
+
+        if (!opciones.includes(profe)) {
+          document.getElementById("resultado").innerText =
+            "Por favor, elige piedra, papel o tijera.";
+          return;
+        }
+
+        const computadora = opciones[Math.floor(Math.random() * 3) + 1];
+        //empate 😒
+        if (profe === computadora) {
+          document.getElementById("resultado").innerText =
+            "Empate: ambos eligieron " + profe;
+          //gana el profe 😎
+        } else if (
+          (profe === "piedra" && computadora === "tijera") ||
+          (profe === "papel" && computadora === "piedra") ||
+          (profe === "tijera" && computadora === "papel")
+        ) {
+          document.getElementById("resultado").innerText =
+            "Ganaste: " + profe + " vence a " + computadora;
+          //fracasao 😢
+        } else {
+          document.getElementById("resultado").innerText =
+            "Perdiste: " + computadora + " vence a " + profe;
+        }
+      }
+    </script>
+  </body>
+</html>
