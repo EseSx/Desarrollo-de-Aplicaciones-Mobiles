@@ -1,6 +1,5 @@
 import { Link } from "react-router-dom";
 import "../styles/Navigation.css";
-import "../styles/App.css";
 
 export default function Navigation() {
   return (
@@ -17,9 +16,6 @@ export default function Navigation() {
         </li>
         <li>
           <Link to="/Rules/Cards">Reglas de las cartas</Link>
-        </li>
-        <li>
-          <Link to="/Rules?Card=fool">0 - Fool</Link>
         </li>
       </ul>
     </nav>

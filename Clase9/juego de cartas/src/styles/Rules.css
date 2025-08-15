@@ -1,0 +1,41 @@
+.fila {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+.fila > h3 {
+  flex: 1;
+  max-width: 500px;
+}
+
+.carta {
+  display: flex;
+  justify-content: center;
+}
+
+.nombre {
+  font-family: var(--font-tarot);
+  font-size: 2rem;
+}
+
+.descripcionIngles {
+  font-family: var(--font-acento);
+  font-size: 1rem;
+}
+
+.descripcionEspañol {
+  font-family: var(--font-acento);
+  font-size: 1.5rem;
+}
+
+.titular {
+  font-family: var(--font-tarot);
+}
+
+.justificacion {
+  font-size: 1.5rem;
+}

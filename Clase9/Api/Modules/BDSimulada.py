@@ -9,8 +9,8 @@ cartas = [
         "numero": 0,
         "imagen": "https://tinyurl.com/TheFool0",
         "descripcion": {
-            "español": "El amanecer de un nuevo cuento\nEl Arcano del Loco no significa que pueda tomarse a la ligera. El Loco es el número cero. Es el vacío del que todo lo demás surge.",
-            "ingles": "The Dawn of a New Tale\nThe Fool Arcana does not mean that it can be taken lightly. The Fool is number zero. It is the void from which all other things begin.",
+            "español": "El amanecer de un nuevo cuento. El Arcano del Loco no significa que pueda tomarse a la ligera. El Loco es el número cero. Es el vacío del que todo lo demás surge.",
+            "ingles": "The Dawn of a New Tale. The Fool Arcana does not mean that it can be taken lightly. The Fool is number zero. It is the void from which all other things begin.",
         },
         "valor_riesgo": 6,
         "efecto": {
@@ -25,8 +25,8 @@ cartas = [
         "numero": 1,
         "imagen": "https://tinyurl.com/TheMagician1Arcana",
         "descripcion": {
-            "español": "Hacer es Ser\nLa siguiente carta, El Mago, representa la acción y la iniciativa...\npero también la inmadurez.",
-            "ingles": "To Do is To Be\nThe next card, The Magician, represents action and initiative...\nbut also immaturity.",
+            "español": "Hacer es Ser. La siguiente carta, El Mago, representa la acción y la iniciativa.... pero también la inmadurez.",
+            "ingles": "To Do is To Be. The next card, The Magician, represents action and initiative.... but also immaturity.",
         },
         "valor_riesgo": 6,
         "efecto": {
@@ -41,8 +41,8 @@ cartas = [
         "numero": 2,
         "imagen": "https://tinyurl.com/ThePriestess2",
         "descripcion": {
-            "español": "Perforar el velo\nLos Arcanos son el medio por el cual todo se revela...\nLa voz silenciosa dentro del corazón susurra la sabiduría más profunda.",
-            "ingles": "Pierce The Veil\nThe Arcana is the means by which all is revealed...\nThe silent voice within one's heart whispers the most profound wisdom.",
+            "español": "Perforar el velo. Los Arcanos son el medio por el cual todo se revela.... La voz silenciosa dentro del corazón susurra la sabiduría más profunda.",
+            "ingles": "Pierce The Veil. The Arcana is the means by which all is revealed.... The silent voice within one's heart whispers the most profound wisdom.",
         },
         "valor_riesgo": 3,
         "efecto": {
@@ -57,8 +57,8 @@ cartas = [
         "numero": 3,
         "imagen": "https://tinyurl.com/TheEmpress3",
         "descripcion": {
-            "español": "El futuro comienza hoy\nLos Arcanos son el medio por el cual todo se revela...\nCelebra la grandeza de la vida... su brillantez... su magnificencia...",
-            "ingles": "The Future Starts Today\nThe Arcana is the means by which all is revealed...\nCelebrate life's grandeur...its brilliance...its magnificence...",
+            "español": "El futuro comienza hoy. Los Arcanos son el medio por el cual todo se revela.... Celebra la grandeza de la vida... su brillantez... su magnificencia...",
+            "ingles": "The Future Starts Today. The Arcana is the means by which all is revealed.... Celebrate life's grandeur...its brilliance...its magnificence...",
         },
         "valor_riesgo": 2,
         "efecto": {
@@ -73,8 +73,8 @@ cartas = [
         "numero": 4,
         "imagen": "https://tinyurl.com/TheEmperor4",
         "descripcion": {
-            "español": "El futuro comienza hoy\nLos Arcanos son el medio por el cual todo se revela...\nCelebra la grandeza de la vida... su brillantez... su magnificencia...",
-            "ingles": "The Die is Cast\nThe Arcana is the means by which all is revealed...\nOnly courage in the face of doubt can lead one to the answer...",
+            "español": "El futuro comienza hoy. Los Arcanos son el medio por el cual todo se revela.... Celebra la grandeza de la vida... su brillantez... su magnificencia...",
+            "ingles": "The Die is Cast. The Arcana is the means by which all is revealed.... Only courage in the face of doubt can lead one to the answer...",
         },
         "valor_riesgo": 4,
         "efecto": {
@@ -89,8 +89,8 @@ cartas = [
         "numero": 5,
         "imagen": "https://tinyurl.com/TheHierophant5",
         "descripcion": {
-            "español": "Hacer sobre los demás\nLos Arcanos son el medio por el cual todo se revela...\nEs realmente un regalo precioso comprender las fuerzas que nos guían a nosotros mismos...",
-            "ingles": "To Do Onto Others\nThe Arcana is the means by which all is revealed...\nIt is indeed a precious gift to understand the forces that guides oneself...",
+            "español": "Hacer sobre los demás. Los Arcanos son el medio por el cual todo se revela.... Es realmente un regalo precioso comprender las fuerzas que nos guían a nosotros mismos...",
+            "ingles": "To Do Onto Others. The Arcana is the means by which all is revealed.... It is indeed a precious gift to understand the forces that guides oneself...",
         },
         "valor_riesgo": 3,
         "efecto": {
@@ -105,8 +105,8 @@ cartas = [
         "numero": 6,
         "imagen": "https://tinyurl.com/TheLovers6",
         "descripcion": {
-            "español": "Abraza tu libertad\nLos Arcanos son el medio por el cual todo se revela... Hay alegría y asombro en llegar a comprender a otro...",
-            "ingles": "Embrace Your Freedom\nThe Arcana is the means by which all is revealed... There is both joy and wonder in coming to understand another...",
+            "español": "Abraza tu libertad. Los Arcanos son el medio por el cual todo se revela... Hay alegría y asombro en llegar a comprender a otro...",
+            "ingles": "Embrace Your Freedom. The Arcana is the means by which all is revealed... There is both joy and wonder in coming to understand another...",
         },
         "valor_riesgo": 5,
         "efecto": {
@@ -121,8 +121,8 @@ cartas = [
         "numero": 7,
         "imagen": "https://tinyurl.com/TheChariot7",
         "descripcion": {
-            "español": "Déjalos muertos\nLos Arcanos son el medio por el cual todo se revela...\nUna de las mayores bendiciones de la vida es la libertad de perseguir las propias metas.",
-            "ingles": "Knock 'em Dead\nThe Arcana is the means by which all is revealed...\nOne of life's greatest blessings is the freedom to pursue one's goals.",
+            "español": "Déjalos muertos. Los Arcanos son el medio por el cual todo se revela.... Una de las mayores bendiciones de la vida es la libertad de perseguir las propias metas.",
+            "ingles": "Knock 'em Dead. The Arcana is the means by which all is revealed.... One of life's greatest blessings is the freedom to pursue one's goals.",
         },
         "valor_riesgo": 4,
         "efecto": {
@@ -137,8 +137,8 @@ cartas = [
         "numero": 8,
         "imagen": "https://tinyurl.com/TheJustice8",
         "descripcion": {
-            "español": "Vencer el mal\nLos Arcanos son el medio por el cual todo se revela.\nPara encontrar el único camino verdadero, uno debe buscar orientación en medio de la incertidumbre...",
-            "ingles": "Vanquish Evil\nThe Arcana is the means by which all is revealed.\nTo find the one true path, one must seek guidance amidst uncertainty...",
+            "español": "Vencer el mal. Los Arcanos son el medio por el cual todo se revela.. Para encontrar el único camino verdadero, uno debe buscar orientación en medio de la incertidumbre...",
+            "ingles": "Vanquish Evil. The Arcana is the means by which all is revealed.. To find the one true path, one must seek guidance amidst uncertainty...",
         },
         "valor_riesgo": 3,
         "efecto": {
@@ -153,8 +153,8 @@ cartas = [
         "numero": 9,
         "imagen": "https://tinyurl.com/TheHermit9",
         "descripcion": {
-            "español": "¿Quién soy?\nLos Arcanos son el medio por el cual todo se revela...\nSe requiere un gran coraje para mirarse a uno mismo honestamente y forjar el propio camino...",
-            "ingles": "Who Am I?\nThe Arcana is the means by which all is revealed...\nIt requires great courage to look at oneself honestly, and forge one's own path...",
+            "español": "¿Quién soy?. Los Arcanos son el medio por el cual todo se revela.... Se requiere un gran coraje para mirarse a uno mismo honestamente y forjar el propio camino...",
+            "ingles": "Who Am I?. The Arcana is the means by which all is revealed.... It requires great courage to look at oneself honestly, and forge one's own path...",
         },
         "valor_riesgo": 2,
         "efecto": {
@@ -169,8 +169,8 @@ cartas = [
         "numero": 10,
         "imagen": "https://tinyurl.com/TheFortune10",
         "descripcion": {
-            "español": "Carpe Diem\nLa fortuna representa el destino y las oportunidades que trae consigo.",
-            "ingles": "Carpe Diem\nFortune represents fate, and the opportunities that come with it.",
+            "español": "Carpe Diem. La fortuna representa el destino y las oportunidades que trae consigo.",
+            "ingles": "Carpe Diem. Fortune represents fate, and the opportunities that come with it.",
         },
         "valor_riesgo": 7,
         "efecto": {
@@ -185,8 +185,8 @@ cartas = [
         "numero": 11,
         "imagen": "https://tinyurl.com/TheStrength11",
         "descripcion": {
-            "español": "El perdón es divino\nLos Arcanos son el medio por el cual todo se revela...\nSólo con fuerza se puede soportar el sufrimiento y el tormento.",
-            "ingles": "Forgiveness Is Divine\nThe Arcana is the means by which all is revealed...\nOnly with strength can one endure suffering and torment.",
+            "español": "El perdón es divino. Los Arcanos son el medio por el cual todo se revela.... Sólo con fuerza se puede soportar el sufrimiento y el tormento.",
+            "ingles": "Forgiveness Is Divine. The Arcana is the means by which all is revealed.... Only with strength can one endure suffering and torment.",
         },
         "valor_riesgo": 3,
         "efecto": {
@@ -201,8 +201,8 @@ cartas = [
         "numero": 12,
         "imagen": "https://tinyurl.com/TheHangedMan12",
         "descripcion": {
-            "español": "Ahora o nunca\nLos Arcanos son el medio por el cual todo se revela...\nFrente al desastre se encuentra la oportunidad de renovación.",
-            "ingles": "Now or Never\nThe Arcana is the means by which all is revealed...\nIn the face of disaster lies the opportunity for renewal.",
+            "español": "Ahora o nunca. Los Arcanos son el medio por el cual todo se revela.... Frente al desastre se encuentra la oportunidad de renovación.",
+            "ingles": "Now or Never. The Arcana is the means by which all is revealed.... In the face of disaster lies the opportunity for renewal.",
         },
         "valor_riesgo": 4,
         "efecto": {
@@ -217,8 +217,8 @@ cartas = [
         "numero": 13,
         "imagen": "https://tinyurl.com/TheDeath13",
         "descripcion": {
-            "español": "Fin del Mundo\nEn el momento en que el hombre devoró el fruto del conocimiento, selló su destino... Confiando su futuro a las cartas, el hombre se aferra a una tenue esperanza. Sí, el Arcano es el medio por el cual todo se revela... Más allá del camino trillado se encuentra el fin absoluto. No importa quién seas... La muerte te espera.",
-            "ingles": "End Of The World\nThe moment man devoured the fruit of knowledge, he sealed his fate... Entrusting his future to the cards, man clings to a dim hope. Yes, the Arcana is the means by which all is revealed... Beyond the beaten path lies the absolute end. It matters not who you are... Death awaits you.",
+            "español": "Fin del Mundo. En el momento en que el hombre devoró el fruto del conocimiento, selló su destino... Confiando su futuro a las cartas, el hombre se aferra a una tenue esperanza. Sí, el Arcano es el medio por el cual todo se revela... Más allá del camino trillado se encuentra el fin absoluto. No importa quién seas... La muerte te espera.",
+            "ingles": "End Of The World. The moment man devoured the fruit of knowledge, he sealed his fate... Entrusting his future to the cards, man clings to a dim hope. Yes, the Arcana is the means by which all is revealed... Beyond the beaten path lies the absolute end. It matters not who you are... Death awaits you.",
         },
         "valor_riesgo": 8,
         "efecto": {
@@ -250,7 +250,7 @@ cartas = [
         "imagen": "https://tinyurl.com/TheDevil15",
         "descripcion": {
             "español": "Conoce al Diablo Interior... Mi pequeño aprendiz ingenuo... ¿Aún no te das cuenta de que te están engañando? ¡Todo lo que he dicho ha sido claramente sospechoso! *suspiro* La ignorancia debería ser un delito. Claro, tienes algunas cualidades positivas, pero si sigues siendo tan ingenuo, todos se aprovecharán de ti. ...Quédate conmigo y te mostraré cómo ser un ganador.",
-            "ingles": "Know The Devil Inside\n...... My foolish little apprentice... Have you not yet realized that you are being deceived? Everything I've said has clearly been suspicious! *sigh* Ignorance should be a crime. Sure, you have some positive qualities, but if you remain so naive, everyone will take advantage of you. ...Stick with me, and I'll show you how to be a winner.",
+            "ingles": "Know The Devil Inside. ...... My foolish little apprentice... Have you not yet realized that you are being deceived? Everything I've said has clearly been suspicious! *sigh* Ignorance should be a crime. Sure, you have some positive qualities, but if you remain so naive, everyone will take advantage of you. ...Stick with me, and I'll show you how to be a winner.",
         },
         "valor_riesgo": 6,
         "efecto": {
@@ -265,8 +265,8 @@ cartas = [
         "numero": 16,
         "imagen": "https://tinyurl.com/TheTower16",
         "descripcion": {
-            "español": "¿Penitencia o pretensión?\n... Todo lo visible está destinado a cambiar y desaparecer... No todo en este mundo es singular. Son pequeñas partes de un panorama mayor. Y, sin embargo, son diferentes entre sí. Todo en este mundo es único.",
-            "ingles": "Penance or Pretense?\n...All things visible are bound to change and disappear... All things in this world are not singular. They're all smaller parts of a bigger picture. And yet, they're all different from each other. All things in this world are unique.",
+            "español": "¿Penitencia o pretensión?. ... Todo lo visible está destinado a cambiar y desaparecer... No todo en este mundo es singular. Son pequeñas partes de un panorama mayor. Y, sin embargo, son diferentes entre sí. Todo en este mundo es único.",
+            "ingles": "Penance or Pretense?. ...All things visible are bound to change and disappear... All things in this world are not singular. They're all smaller parts of a bigger picture. And yet, they're all different from each other. All things in this world are unique.",
         },
         "valor_riesgo": 7,
         "efecto": {
@@ -282,7 +282,7 @@ cartas = [
         "imagen": "https://tinyurl.com/TheStar17",
         "descripcion": {
             "español": "Confía en ti mismo. Es una carta poderosa que da esperanza a quienes están en la tierra. Brilla en tiempos de necesidad. Pero, con el tiempo, está destinada a caer a tierra y desaparecer... Incluso yo puedo sentir la tristeza de este destino ineludible...",
-            "ingles": "Trust in Yourself\nIt's a strong card, one that gives hope to those on the ground below. It shines in times of need. But, eventually, it is destined to fall to the earth and disappear... Even I can feel the sadness of this inescapable destiny...",
+            "ingles": "Trust in Yourself. It's a strong card, one that gives hope to those on the ground below. It shines in times of need. But, eventually, it is destined to fall to the earth and disappear... Even I can feel the sadness of this inescapable destiny...",
         },
         "valor_riesgo": 2,
         "efecto": {
@@ -297,8 +297,8 @@ cartas = [
         "numero": 18,
         "imagen": "https://tinyurl.com/TheMoon18",
         "descripcion": {
-            "español": "Una Larga Sombra Proyectada\nLa dicha lo hace vulnerable a las ilusiones de la Luna. Surgen los miedos, y sigue el sombrío camino de su corazón con inquietud...",
-            "ingles": "A Long Shadow Cast\nThe bliss makes him vulnerable to the illusions of The Moon. Fears arise, and he follows the dim path in his heart with trepidation...",
+            "español": "Una Larga Sombra Proyectada. La dicha lo hace vulnerable a las ilusiones de la Luna. Surgen los miedos, y sigue el sombrío camino de su corazón con inquietud...",
+            "ingles": "A Long Shadow Cast. The bliss makes him vulnerable to the illusions of The Moon. Fears arise, and he follows the dim path in his heart with trepidation...",
         },
         "valor_riesgo": 6,
         "efecto": {
@@ -314,7 +314,7 @@ cartas = [
         "imagen": "https://tinyurl.com/TheSun19S",
         "descripcion": {
             "español": "Tu vida es tuya. A menos que estés en mi situación, no puedes entender cómo es. Pero lo prefiero así. No se lo deseo a nadie.",
-            "ingles": "Your Life is Your Own\nUnless you're in my situation, you can't understand what it's like. ...But I prefer it that way. I wouldn't wish this on anyone.",
+            "ingles": "Your Life is Your Own. Unless you're in my situation, you can't understand what it's like. ...But I prefer it that way. I wouldn't wish this on anyone.",
         },
         "valor_riesgo": 1,
         "efecto": {

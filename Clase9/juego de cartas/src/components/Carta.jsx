@@ -1,16 +1,26 @@
+// ---- Hooks ----
 import { useState, useEffect } from "react";
+
+// ---- Styles ----
 import "../styles/Carta.css";
 
-export default function Carta({ cartas }) {
+// La funcion "Carta" recibe las cartas una vez que se exporta
+export default function Carta({ cartas, cartaFija = null }) {
   const [cartaAleatoria, setCartaAleatoria] = useState(null);
 
+  // useEffect setea una carta aleaotria cada vez que se ejecuta o se re carga la pagina
   useEffect(() => {
-    if (cartas.length > 0) {
+    if (cartaFija) {
+      // Si recibe cartaFija, usa esa
+      setCartaAleatoria(cartaFija);
+    } else if (cartas.length > 0) {
+      // Si no, usa aleatoria
       const randomIndex = Math.floor(Math.random() * cartas.length);
       setCartaAleatoria(cartas[randomIndex]);
     }
-  }, [cartas]);
+  }, [cartas, cartaFija]);
 
+  // Aca muestra las cartas
   return (
     <div className="card-container">
       <div className="card">

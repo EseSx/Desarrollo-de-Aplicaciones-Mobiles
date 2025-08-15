@@ -40,17 +40,10 @@
 
 .linea {
   display: flex;
-  justify-content: center; /* centra los elementos horizontalmente */
-  gap: 20px; /* espacio entre carta y texto */
-  align-items: flex-start; /* alinea la parte superior */
+  justify-content: center;
+  gap: 20px;
+  align-items: flex-start;
   padding: 20px;
-}
-
-.linea > .carta-container {
-  flex: 0 0 auto; /* no se estira ni se encoge */
-  width: 300px; /* ancho fijo o relativo */
-  max-width: 30vw; /* opcional: que no ocupe más de un % de la pantalla */
-  aspect-ratio: 2/3;
 }
 
 .linea > h3 {

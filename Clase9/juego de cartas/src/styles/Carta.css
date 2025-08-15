@@ -9,14 +9,13 @@
   height: 100%;
   position: relative;
   transform-style: preserve-3d;
-  /* Eliminamos el hover y agregamos animación automática */
   animation: girar 4s infinite linear;
 }
 
 /* Animación de rotación */
 @keyframes girar {
   0% {
-    transform: rotateY(0deg) rotateZ(35deg); /* inclinación lateral */
+    transform: rotateY(0deg) rotateZ(35deg);
   }
   50% {
     transform: rotateY(180deg) rotateZ(35deg);
