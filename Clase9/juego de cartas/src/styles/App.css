@@ -10,7 +10,6 @@
   --color-fondo: #0f111a;
   --color-acento: #b71c1c;
   --color-texto-principal: #ededed;
-  --color-texto-tenue: #a1a1b0;
   --color-oro-detalles: #cbb26a;
 }
 
@@ -20,50 +19,15 @@
 
 body {
   background-color: var(--color-fondo);
+  background-image: url("data:image/svg+xml;utf8,\<svg xmlns='http://www.w3.org/2000/svg' width='200' height='300'>\<polygon points='100,0 200,150 100,300 0,150' fill='%232f5aac'/>\</svg>");
+  background-repeat: repeat;
 }
 
 .header {
-  background-color: var(--color-secundario);
   padding: 2rem;
-  border-bottom: 2px solid var(--color-primario);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
   text-align: center;
   text-transform: uppercase;
-  position: sticky;
   top: 0;
   z-index: 1000;
   margin-bottom: 2rem;
-}
-
-.titulo {
-  font-size: clamp(2.5rem, 5vw, 4rem);
-  font-weight: 700;
-  letter-spacing: 1.5px;
-  color: var(--color-texto-principal);
-  text-shadow: 2px 2px 0 var(--color-primario);
-}
-
-.subtitulo {
-  font-family: var(--font-acento);
-  font-style: italic;
-  font-size: 1.5rem;
-  color: var(--color-texto-tenue);
-  letter-spacing: 0.5px;
-  font-weight: 400;
-}
-
-.introduccion {
-  color: var(--color-texto-tenue);
-  font-size: 1.2rem;
-  line-height: 1.6;
-  max-width: 70ch;
-  margin: 2rem auto;
-  padding: 1.5rem;
-  border-left: 4px solid var();
-}
-
-.texto,
-.titulo,
-.introduccion {
-  font-family: var(--font-body);
 }

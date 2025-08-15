@@ -1,0 +1,59 @@
+.card-container {
+  perspective: 1000px; /* profundidad 3D */
+  width: 200px;
+  height: 300px;
+}
+
+.card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform-style: preserve-3d;
+  /* Eliminamos el hover y agregamos animación automática */
+  animation: girar 4s infinite linear;
+}
+
+/* Animación de rotación */
+@keyframes girar {
+  0% {
+    transform: rotateY(0deg) rotateZ(35deg); /* inclinación lateral */
+  }
+  50% {
+    transform: rotateY(180deg) rotateZ(35deg);
+  }
+  100% {
+    transform: rotateY(360deg) rotateZ(35deg);
+  }
+}
+
+.card-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card-back {
+  background-color: #222;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-back img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-front {
+  transform: rotateY(180deg);
+}
+
+.card-front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

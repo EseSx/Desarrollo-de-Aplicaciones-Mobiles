@@ -1,0 +1,59 @@
+.titulo {
+  font-size: clamp(2.5rem, 5vw, 4rem);
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: var(--color-texto-principal);
+  text-shadow: 2px 2px 0 var(--color-primario);
+}
+
+.subtitulo {
+  font-family: var(--font-acento);
+  font-style: italic;
+  font-size: 1.5rem;
+  color: var(--color-texto-principal);
+  letter-spacing: 0.5px;
+  font-weight: 400;
+}
+
+.introduccion,
+.texto {
+  color: var(--color-texto-principal);
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 70ch;
+  margin: 2rem 6rem;
+}
+
+.texto {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  max-width: 100ch;
+  margin: 2rem auto;
+  color: var(--color-texto-principal);
+}
+
+.texto,
+.titulo,
+.introduccion {
+  font-family: var(--font-body);
+}
+
+.linea {
+  display: flex;
+  justify-content: center; /* centra los elementos horizontalmente */
+  gap: 20px; /* espacio entre carta y texto */
+  align-items: flex-start; /* alinea la parte superior */
+  padding: 20px;
+}
+
+.linea > .carta-container {
+  flex: 0 0 auto; /* no se estira ni se encoge */
+  width: 300px; /* ancho fijo o relativo */
+  max-width: 30vw; /* opcional: que no ocupe más de un % de la pantalla */
+  aspect-ratio: 2/3;
+}
+
+.linea > h3 {
+  flex: 1;
+  max-width: 500px;
+}

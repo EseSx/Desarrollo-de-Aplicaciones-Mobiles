@@ -1,0 +1,20 @@
+.navegacion {
+  width: 50vw;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 2rem;
+  background-color: var(--color-secundario);
+}
+
+a {
+  color: var(--color-texto-principal);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-acento);
+}
+
+li::marker {
+  color: var(--color-oro-detalles);
+}

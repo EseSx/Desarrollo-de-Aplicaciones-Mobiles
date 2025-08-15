@@ -1,6 +1,7 @@
 // ---- Hooks ----
 import { useParams } from "react-router-dom";
 import { useEffect } from "react";
+import Navigation from "../components/Navigation";
 import { useLocation } from "react-router-dom";
 
 export default function Rules() {
@@ -29,6 +30,9 @@ export default function Rules() {
 
   return (
     <>
+      <section id="fool">
+        <h1>buscaste fool</h1>
+      </section>
       <h1>
         . <br /> . <br /> . <br /> . <br /> . <br /> . <br /> . <br /> . <br />{" "}
         . <br /> . <br /> . <br /> . <br /> . <br /> . <br /> . <br /> . <br />{" "}
@@ -36,9 +40,7 @@ export default function Rules() {
         . <br /> . <br /> . <br /> . <br /> . <br /> . <br /> . <br /> . <br />{" "}
         .
       </h1>
-      <section id="fool">
-        <h1>buscaste fool</h1>
-      </section>
+      <Navigation></Navigation>
     </>
   );
 }
