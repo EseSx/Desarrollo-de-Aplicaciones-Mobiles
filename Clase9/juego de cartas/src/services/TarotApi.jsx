@@ -8,7 +8,7 @@ function TarotApi() {
 
   useEffect(() => {
     if (cartas.length === 0) {
-      const url = "http://127.0.0.1:8000/cards/get_all";
+      const url = "https://api-persona3.vercel.app//cards/get_all";
 
       fetch(url)
         .then((res) => res.json())
